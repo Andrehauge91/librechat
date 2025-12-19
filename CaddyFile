@@ -1,0 +1,3 @@
+chat.andrehauge.no {
+    reverse_proxy localhost:3080
+}o
