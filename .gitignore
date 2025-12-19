@@ -138,3 +138,28 @@ helm/**/.values.yaml
 /.tabnine/
 /.codeium
 *.local.md
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+
+# Data directories
+data-node/
+meili_data_v1.12/
+uploads/
+logs/
+
+# Dependencies
+node_modules/
+.next/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
